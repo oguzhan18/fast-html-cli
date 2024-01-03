@@ -1,6 +1,6 @@
 {
   "name": "fast-html-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CLI to generate index.html file",
   "bin": {
     "new": "./index.js"
