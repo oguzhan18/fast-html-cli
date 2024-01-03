@@ -1,0 +1,13 @@
+{
+  "name": "fast-html-cli",
+  "version": "1.0.4",
+  "description": "CLI to generate index.html file",
+  "bin": {
+    "new": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "author": "oguzhancart",
+  "license": "MIT"
+}
