@@ -9,7 +9,7 @@ if (!fileName) {
   process.exit(1);
 }
 
-const htmlContent = '<!DOCTYPE html>\n<html>\n<head>\n<title></title>\n</head>\n<body>\n</body>\n</html>';
+const htmlContent = '<!DOCTYPE html>\n<html>\n<head>\n<title></title>\n</head>\n<body>\n <h1>New HTML File</h1></body>\n</html>';
 const filePath = path.join(process.cwd(), `${fileName}.html`);
 
 fs.writeFileSync(filePath, htmlContent);
